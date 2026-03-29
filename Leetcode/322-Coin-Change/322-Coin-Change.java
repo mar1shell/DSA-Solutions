@@ -1,6 +1,4 @@
 class Solution {
-    private Queue<Integer> heap;
-    
     public int coinChange(int[] coins, int amount) {
         int[] minCoins = new int[amount + 1];
 
